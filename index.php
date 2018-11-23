@@ -33,24 +33,24 @@
 </nav>
 <div class="container">
   <form class="form-inline">
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form>
+	    <div class="form-group">
+	      <label for="categoria">Categoria:</label>
+	      <select class="form-control" id="categoria"></select>
+	    </div>
+	    <div class="form-group">
+	      <label for="dpto">Departamento:</label>
+	      <select class="form-control" id="dpto"></select>
+	    </div>
+	    <div class="form-group">
+	      <label for="ciudad">Ciudad:</label>
+	      <select class="form-control" id="ciudad"></select>
+	    </div>
+	    <div class="form-group">
+	      <label for="buscar">Buscar:</label>
+	      <select class="form-control" id="buscar"></select>
+	    </div>
+	    <button type="submit" class="btn btn-primary">Submit</button>
+	  </form>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
